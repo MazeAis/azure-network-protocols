@@ -30,14 +30,14 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/C6ZlyVt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/C6ZlyVt.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create your resource group in the Azure Portal</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/BNWKykA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BNWKykA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Now, set up your Windows virtual machine. Make sure all your systems are placed in the same location (called a region) so they can work together easily.
@@ -51,7 +51,7 @@ When you get to the Administrator Account section, be sure to set your username 
 <br />
 
 <p>
-<img src="https://i.imgur.com/BIwssjc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/BIwssjc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Create an Linux virtual machine.
@@ -70,11 +70,13 @@ The two virtual machines were set up in Azure and placed in the same private net
 </p>
 <br />
 
+<h2>Inspecting Traffic Between Virtual Machines </h2>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/P2sSpT3.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Connect to your Windows 10 virtual machine using Remote Desktop. Once you're in, install Wireshark, open it, and set the filter to show only ICMP traffic (which is used for things like ping).
 </p>
 <br />
 
