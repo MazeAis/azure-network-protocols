@@ -22,9 +22,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Create a Resource Group
+- Create a Resource Group 
 - Create a Virtual Machine
-- Observe Traffic (ICMP, SSH, DHCP, DNS, RDP)
+- Use Wireshark to monitor network traffic for:
+
+  - ICMP (Ping)
+  - SSH (Secure Shell)
+  - DHCP (IP assignment)
+  - DNS (Domain lookups)
+  - RDP (Remote Desktop)
 
 <h2>Actions and Observations</h2>
 
