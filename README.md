@@ -70,6 +70,7 @@ The two virtual machines were set up in Azure and placed in the same private net
 <br />
 
 <h2>Inspecting Traffic Between Virtual Machines </h2>
+<h3>ICMP </h3>
 
 <p>
 <img src="https://i.imgur.com/P2sSpT3.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
@@ -94,6 +95,8 @@ Find the private IP address of the Ubuntu virtual machine, then go to the Window
 Attempt to ping a public website such as www.google.com and use Wireshark to watch the network traffic that appears.
 </p>
 <br />
+
+<h3>SSH </h3>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
