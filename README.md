@@ -149,3 +149,14 @@ You’ll notice a continuous stream of network activity. Since Remote Desktop is
 </p>
 <br />
 
+### ✅ Summary
+
+This project demonstrates how to analyze and understand network traffic between virtual machines in Microsoft Azure using Wireshark. By setting up both Windows and Ubuntu VMs in the same virtual network, we were able to:
+
+- Observe different types of network traffic (ICMP, SSH, DHCP, DNS, RDP)
+- Use **Wireshark** to capture and filter protocol-specific traffic
+- Understand how communication flows between cloud-based machines
+- Gain practical experience with **Network Security Groups (NSGs)** and protocol behavior
+- Learn how continuous services like RDP maintain constant traffic
+
+Through this lab, I developed hands-on cloud networking skills, including VM provisioning, remote access, packet inspection, and troubleshooting—foundational abilities for any IT or cybersecurity role.
