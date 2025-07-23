@@ -112,14 +112,34 @@ In Wireshark, set the filter to show only SSH traffic. Then, from your Windows 1
 <img src="https://i.imgur.com/OomeytU.png" height="60%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In Wireshark, apply a filter to show only DHCP traffic. Then, on your Windows 10 virtual machine, open the command line and run ipconfig /renew to request a new IP address. Watch as the DHCP traffic shows up in Wireshark.
+In Wireshark, apply a filter to show only DHCP traffic. 
+Then, on your Windows 10 virtual machine, open the command line and run ipconfig /renew to request a new IP address. Watch as the DHCP traffic shows up in Wireshark.
 </p>
 <br />
 
+<h3>DNS </h3>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PV6xlTt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Wireshark, set the filter to display only DNS traffic.
+
+Then, on your Windows 10 virtual machine, open the command line and use the `nslookup` command to find the IP addresses for `www.google.com` and `www.disney.com`. Watch the DNS traffic appear in Wireshark as the system looks up the domain names.
+
 </p>
 <br />
+
+<h3>RDP </h3>
+
+<p>
+<img src="https://i.imgur.com/z8h4g9M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In Wireshark, apply a filter for RDP traffic using tcp.port == 3389.
+
+You’ll notice a continuous stream of network activity. Since Remote Desktop is live and running, it keeps sending little bits of information back and forth—even if you're not clicking or typing. This helps keep the connection smooth and up to date. That’s why you’ll see constant traffic on `TCP port 3389` in Wireshark.
+
+</p>
+<br />
+
