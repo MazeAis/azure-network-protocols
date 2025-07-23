@@ -80,7 +80,7 @@ Connect to your Windows 10 virtual machine using Remote Desktop. Once you're in,
 <br />
 
 <p>
-<img src="https://i.imgur.com/gXms4rJ.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gXms4rJ.png" height="90%" width="70%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Find the private IP address of the Ubuntu virtual machine, then go to the Windows 10 virtual machine and try to ping it. Open Wireshark, make sure you're filtering for ICMP traffic, and watch the ping requests and replies appear.
@@ -88,10 +88,10 @@ Find the private IP address of the Ubuntu virtual machine, then go to the Window
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CDLRCab.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Attempt to ping a public website such as www.google.com and use Wireshark to watch the network traffic that appears.
 </p>
 <br />
 
